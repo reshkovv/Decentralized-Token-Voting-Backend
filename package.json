@@ -1,0 +1,16 @@
+{
+  "name": "opsinTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Risto Reshkov",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "express": "^4.19.2",
+    "web3": "^4.8.0"
+  },
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "test": "cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register -r src/**/*.spec.ts"
+  }
+}

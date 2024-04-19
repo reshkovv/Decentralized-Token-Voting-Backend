@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "347ced28-083f-40e8-9c3a-b6801ba3b623",
+		"name": "opsinTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "propose",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"targets\" : [\"0x70B06c56Ef6697BDd4D3B1d064e952c386BCF0C0\"],\n    \"values\" : [0],\n    \"calldatas\" :[\"0xb921e16300000000000000000000000000000000000000000000000000000000000003e8\"],\n    \"description\" : \"testProposal3\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/propose",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"propose"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "proposalInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proposalInfo/52668673900471805417001221634723367320616284552838002516804630547620781159224",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proposalInfo",
+						"52668673900471805417001221634723367320616284552838002516804630547620781159224"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vote",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"proposalID\" : \"52668673900471805417001221634723367320616284552838002516804630547620781159224\",\n    \"support\" : 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/vote",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vote"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

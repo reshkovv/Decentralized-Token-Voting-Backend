@@ -1,0 +1,18 @@
+  mumbaiRPC: "https://mumbai.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  ethereumRPC: "https://ethereum.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  polygonRPC: "https://polygon.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  sepoliaRPC: "https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+
+  mumbaiChainID: 80001
+  sepoliaChainID: 11155111
+  ethereumChainID: 1
+  polygonChainID: 137
+
+  adminPrivateKey: "7f37db8ab9434bf1a4c0aed17420771d7f3fbb2fcbe00b366faef33864cf733b"
+  adminAddress: "0x2792ca764224F93301f4cE73B3ec40d41FFED788"
+
+  governorAddress: "0x0b815b845DC742522BB9c1263180bBB8350656bC"
+  govTokenAddress: "0x141881745b6A01A75BA490DB69039c3f497f3604"
+  timeLockAddress: "0x86B378a65D4ff2Cc6604C55bCc3c352a2DF6b0C4"
+
+  proposalID: "52668673900471805417001221634723367320616284552838002516804630547620781159224"
