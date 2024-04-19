@@ -4,8 +4,8 @@ import (
 	"log"
 	"math/big"
 	"os"
-	"private/opsinTest/deployer/genFiles"
-	"private/opsinTest/deployer/settings"
+	"private/opsinTest/goAdmin/genFiles"
+	"private/opsinTest/goAdmin/settings"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"

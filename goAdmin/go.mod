@@ -1,4 +1,4 @@
-module private/opsinTest/deployer
+module private/opsinTest/goAdmin
 
 go 1.21.3
 

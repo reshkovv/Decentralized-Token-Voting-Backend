@@ -26,7 +26,7 @@ run compile_contracts.sh script  ./scripts/compile_contracts.sh
 
 ### create go files
 
-generate .go files which re required for the deployer
+generate .go files which re required for the goAdmin
 
 steps:
 run generate_go_files.sh script
